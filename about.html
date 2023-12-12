@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fbe82d50e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="VBR.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+        </nav>
+       <h1>About Us</h1>
+    </section>
+    <!--about us content-->
+    <section class="about-us">
+      <div class="row">
+        <div class="about-col">
+          <h1>We are the world biggest film school</h1>
+          <p>The USC School of Cinematic Arts was founded in the
+             midst of this Hollywood system in 1929, and continues
+              to be widely recognized as one of the most prestigious 
+              film schools in the world. The University of Southern 
+              California was the first university in the country to 
+              offer a Bachelor of Arts degree in film.</p>
+            <a href="" class="hero-btn red-btn">EXPLORE N0W</a>
+        </div>
+        <div class="about-col">
+          <img src="movie-scenes-3757174.jpg">
+      </div>
+
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This year marks our foray into the world of film making
+            and we come armed with experience and opportunities. 
+            Our programs have been carefully crafted by professionals 
+            in the field. We believe in pedagogical approach to help
+             prepare students. The aim of our programs is to polish
+              their skills and to prepare them for the challenging yet 
+              thrilling area of film making, transforming them into polyvalent
+               film makers who are capable of accepting the challenges.
+            Master classes, visiting veterans and a team of dedicated 
+            professionals ensure that the students hone their skills with
+             proper guidance. We believe that the amateurs of today are the experts of tomorrow.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>made with <i class="fa-solid fa-heart"></i>& your faith</p>
+
+    </section>
+
+    <!-----javascript for toggle menu------->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showMenu() {
+            navlink.style.right = "0";
+        }
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>

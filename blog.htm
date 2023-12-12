@@ -1,0 +1,149 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="style2.css">
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:ital,wght@0,100;0,300;0,400;0,600;0,700;1,100&display=swap"
+        rel="stylesheet">
+        <script src="https://kit.fontawesome.com/fbe82d50e6.js" crossorigin="anonymous"></script>
+</head>
+
+<body>
+    <section class="sub-header">
+        <nav>
+            <a href="#"><img src="VBR.png"></a>
+            <div class="nav-link" id="navlink">
+                <i class="fa-solid fa-bars" onclick="hideMenu()"></i>
+                <ul>
+                    <li><a href="index.html">Home</a></li>
+                    <li><a href="about.html">About</a></li>
+                    <li><a href="service.html">Service</a></li>
+                    <li><a href="blog.html">Blog</a></li>
+                    <li><a href="contact.html">Contact</a></li>
+            </div>
+            <i class="fa-solid fa-bars"onclick="showMenu()"></i>
+        </nav>
+       <h1>Our certificate & online programs for 2024</h1>
+    </section>
+    <!--blog page content-->
+   <section class="blog-content">
+    <div class="row">
+        <div class="blog-left">
+            <img src="graduation.jpg">
+            <h2>Our certificate & online programs for 2024</h2>
+            <p>A film school is an educational institution dedicated to 
+                teaching aspects of filmmaking, including such subjects
+                 as film production, film theory, digital media production, 
+                 and screenwriting. Film history courses and hands-on technical 
+                 training are usually incorporated into most film school curricula.
+                  Technical training may include instruction in the use and operation
+                  of cameras, lighting equipment, film or video editing equipment and
+                  software, and other relevant equipment. Film schools may also include 
+                  courses and training in such subjects as television production,
+                   broadcasting, audio engineering, and animation</p>
+                   <br>
+
+                   <p>The formal teaching of film began with theory rather than practical 
+                    technical training starting soon after the development of the filmmaking
+                     process in the 1890s. Early film theorists were more interested in writing
+                      essays on film theory than in teaching students in a classroom environment.
+                       The Moscow Film School was founded in 1919 with Russian filmmakers including
+                        Sergei Eisenstein, Vsevolod Pudovkin, and Lev Kuleshov serving as faculty 
+                        to disseminate their very distinct viewpoints on the purpose of film.</p>
+                      <br>
+                      <p>The tradition of apprenticing up through a hierarchical system continues
+                         to this day within film studios and in television in many technical positions 
+                         such as gaffers, grips, camera operators, and even into post-production with
+                          editing and color correction. Independent lower budget filmmaking in the 
+                          post-war period using portable 16mm film cameras allowed filmmakers like 
+                          John Cassavetes in the United States, along with members of the French 
+                          New Wave and Italian Neorealism in Europe, to circumvent the classical system.</p>
+                          <br>
+                          <p>A film school may be part of an existing public or private college or 
+                            university, or part of a privately owned for-profit institution. Depending 
+                            on whether the curriculum of a film school meets its state's academic 
+                            requirements for the conferral of a degree, completion of studies in a
+                             film school may culminate in an undergraduate or graduate degree, or a
+                              certificate of completion. Some institutions, both accredited and 
+                              non-accredited, run shorter workshop and conservatory programs[5]
+                               concurrent to longer degree courses.</p>
+                             <div class="comment-box">
+                                <h3>leave a comment</h3>
+                                <form class="comment-form">
+                                    <input type="text" placeholder="Enter Name">
+                                    <input type="email" placeholder="Enter Email">
+                                    <textarea rows="5" placeholder="Your comment"></textarea>
+                                    <button type="Submit" class="hero-btn red-btn">POST COMMENT</button>
+
+
+                                </form>
+                             </div>
+        </div>
+        <div class="blog-right">
+            <h3>Post catogories</h3>
+            <div>
+                <span>Film director</span>
+                <span>21</span>
+            </div>
+            <div>
+                <span>Film/video editor</span>
+                <span>28</span>
+            </div>
+            <div>
+                <span>Location Manager</span>
+                <span>25</span>
+            </div>
+            <div>
+                <span>Production Designer</span>
+                <span>40</span>
+            </div>
+            <div>
+                <span>Theatre/television/film</span>
+                <span>35</span>
+            </div>
+        </div>
+    </div>
+
+   </section>
+    <!--- footer-->
+    </section>
+
+    <section class="footer">
+        <h4>About Us</h4>
+        <p>This year marks our foray into the world of film making
+            and we come armed with experience and opportunities. 
+            Our programs have been carefully crafted by professionals 
+            in the field. We believe in pedagogical approach to help
+             prepare students. The aim of our programs is to polish
+              their skills and to prepare them for the challenging yet 
+              thrilling area of film making, transforming them into polyvalent
+               film makers who are capable of accepting the challenges.
+            Master classes, visiting veterans and a team of dedicated 
+            professionals ensure that the students hone their skills with
+             proper guidance. We believe that the amateurs of today are the experts of tomorrow.</p>
+            <div class="icons">
+                <i class="fa-brands fa-facebook"></i>
+                <i class="fa-brands fa-twitter"></i>
+                <i class="fa-brands fa-instagram"></i>
+                <i class="fa-brands fa-linkedin"></i>
+            </div>
+            <p>made with <i class="fa-solid fa-heart"></i>& your faith</p>
+
+    </section>
+    <!-----javascript for toggle menu------->
+    <script>
+        var navlink = document.getElementById("navlink");
+        function showMenu() {
+            navlink.style.right = "0";
+        }
+        function hideMenu() {
+            navlink.style.right = "-200px";
+        }
+    </script>
+</body>
+
+</html>
